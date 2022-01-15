@@ -1,0 +1,227 @@
+body {
+    font-family: 'Roboto';
+    margin: 84px auto;
+    width: 1220px;
+    height: 3146px;
+    display: grid;
+    margin-left: unset;
+}
+header {
+    position: fixed; 
+    top: 0px;
+    background-color: #007765;
+    padding-left: 55px;
+    padding-right: 55px;
+    height: 84px;
+    width: 1220px;
+    /*width: -webkit-fill-available; /*на всю страницу*/
+}
+
+nav li , nav li a {
+    display: inline;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+a {
+    font-size: 24px;
+}
+nav ul {
+    position: absolute;
+    top: 29px;
+    font-family: 'Roboto';
+    margin: auto;
+    padding-left: 741px;
+    color: #FFFFFF;
+}
+
+nav li a:hover {
+    opacity: 0.3;
+}
+
+h1#PiperNet {
+    background: url('image-8.png');
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 72px;
+    font-family: 'Roboto';
+    margin: auto;
+    height: 403px;
+    background-position: center;
+    line-height: 328px;
+}
+
+
+h2 {
+    text-align: center;
+    height: 75px;
+    padding-top: 48px;
+    font-size: 64px;
+    color: #007765;
+    margin: auto;
+    font-weight: 500;
+    font-size: 64px;
+}
+
+div.TheProblem_block {
+    height: 719px;
+    margin-left: 55px;
+    margin-right: 55px;
+    width: 1110px
+}
+.TheProblem_text {
+    font-size: 32px;
+    margin: 0px;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 92px;
+}
+section.hero  {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: url('image-9.png');
+    background-size: cover;
+    font-size: 48px;
+    text-align: center;
+    height: 483px;
+    width: auto;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+section.hero p i {
+    height: 228px;
+    width: 893px;
+}
+section.hero p {
+    margin: 0px;
+    padding-top: 128px;
+    padding-bottom: 127px;
+    height: 228px;
+}
+
+img.PPClogo:hover {
+    float: left;
+    height: 115px;
+    width: 115px;
+    margin-left: 55px;
+    margin-top: 139px;
+    padding-right: 48px;
+    padding-bottom: 35px;
+    opacity: 0.5;
+    
+}
+img.PPClogo {
+    height: 115px;
+    width: 115px;
+    margin-left: 55px;
+    margin-top: 139px;
+    padding-right: 48px;
+    padding-bottom: 35px;
+    float: left;
+}
+
+
+h2#PiedPiperCoin {
+    width: 758px;
+    margin: 0px auto 0px 235px;
+    font-size: 64px;
+}
+section.PPC {
+    background-color: white;  
+    width: 1219px;
+    padding-left: 55px;
+    margin-bottom: 217px;
+}
+
+
+section.PPC p {
+    font-size: 32px;
+    text-align: left;
+    color: black;
+    height: 110px;
+    margin-top: 16px;
+    padding-bottom: 0;
+    margin-left: 55px;
+    margin-right: 71px;
+    width: 1110px;
+}
+
+section.bg {
+    height: 845px;
+    width: auto;
+    background-color: #EEEEEE;
+}
+.name {
+    font-size: 24px;
+    color: #007765;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.job{
+    font-size: 18px;
+    font-style: italic;
+}
+.image-1 , .image-2, .image-3, .image-4, .image-5 , .image-6 {
+    height: 168px;
+    width: 168px;
+    padding-top: 56px;
+    padding-right: 30px;
+}
+.member {
+    height: 283px;
+    width: 350px;
+    text-align: center;
+    display: block;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 24px;
+}
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 32px;
+    margin-left: auto;
+    justify-content: center;
+}
+
+footer.rectangle {
+    background-color: #333333;
+    height: 176px;
+    width: auto;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    max-width: -webkit-fill-available;
+}
+footer.rectangle p {
+    margin-top: 48px;
+    font-weight: 400;
+    
+}
+
+section#TheProblem {
+    padding-left: 55px;
+    padding-right: 55px;
+    width: 1220px;
+    background-color: #EEEEEE;
+}
+
+
+
+.logo:hover {
+    margin: 20px auto auto 55px;
+    height: 45px;
+    width: 184px;
+    opacity: 0.3; /*полупрозрачный фон логотипа при нажатии кнопки*/
+}
+.logo {
+    margin: 20px auto auto 55px;
+    height: 45px;
+    width: 184px;
+
+}
